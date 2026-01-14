@@ -8,7 +8,7 @@ load_dotenv()
 API_KEY = os.getenv('YOUTUBE_API_KEY')
 
 # --- KONFIGURASI ---
-VIDEO_ID = 'dQw4w9WgXcQ'  # Ganti dengan ID Video Targetmu
+VIDEO_ID = '0BRFlBVWH3c'  # Ganti dengan ID Video Targetmu
 
 def get_comments(api_key, video_id, max_results=10):
     if not api_key:
